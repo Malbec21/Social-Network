@@ -16,7 +16,7 @@ class SocialNetworkBot:
     def __create_users(self):
         for _ in range(self.number_of_users):
             user_obj = User()
-            user_obj.username = uuid4()
+            user_obj.username = str(uuid4())[:6]
             self.user_list.append(user_obj)
             User.save(user_obj)
 
