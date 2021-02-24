@@ -15,7 +15,7 @@ Using Django and Django rest framework, React, Redux.
 * python3 manage.py runserver
 * Then go to the localhost:8000 in your browser
 
-**Functional**:
+**Functionality**:
 * Register, Login
 * Create, Delete, Like, Dislike Posts.
 * In 'my posts' page you can see only posts create by yourself.
